@@ -1,0 +1,6 @@
+[submodule "tinysh"]
+	path = tinysh
+	url = git@github.com:pudjamansyurin/tinysh-fork.git
+[submodule "nds-serial"]
+	path = nds-serial
+	url = git@github.com:pudjamansyurin/nds-serial.git

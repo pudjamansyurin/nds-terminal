@@ -4,14 +4,15 @@
  *  Created on: May 5, 2022
  *      Author: pujak
  */
+
 #include "terminal.h"
 #include "tinysh/tinysh.h"
 #include <stdio.h>
 
-/* Private variables */
+/* Private variables -------------------------------------------------------- */
 static char buffer[256];
 
-/* Public function definitions */
+/* Public function definitions ---------------------------------------------- */
 void term_init(NDS_DRIVER_USART *p_usart, uint32_t u32_baud,
 	stdin_reader_t reader, stdout_locker_t locker)
 {
